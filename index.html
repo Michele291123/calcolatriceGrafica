@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>calcolatrice</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="display">
+            <h2 id="displayInput"></h2>
+        </div>
+        <div id="keys">
+          <button id="clear" onclick="AC()">AC</button>
+          <button id="negate"></button>
+          <button id="percentage"></button>
+          <button id="divide" onclick="scriviDiviso()">/</button>
+          <button id="seven" onclick="scrivi7()">7</button>
+          <button id="eight" onclick="scrivi8()">8</button>
+          <button id="nine" onclick="scrivi9()">9</button>
+          <button id="multiply" onclick="scriviPer()">*</button>
+          <button id="four" onclick="scrivi4()">4</button>
+          <button id="five" onclick="scrivi5()">5</button>
+          <button id="six" onclick="scrivi6()">6</button>
+          <button id="subtract" onclick="scriviMeno()">-</button>
+          <button id="one" onclick="scrivi1()">1</button>
+          <button id="two" onclick="scrivi2()">2</button>
+          <button id="three" onclick="scrivi3()">3</button>
+          <button id="add" onclick="scriviPiu()">+</button>
+          <button id="zero" onclick="scrivi0()">0</button>
+          <button id="decimal" onclick="scriviPunto()">.</button>
+          <button id="equals" onclick="uguale()">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
